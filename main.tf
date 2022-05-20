@@ -12,7 +12,7 @@ variable "var1" {
   description = "The first variable"
 }
 
-output "aws_region" {	
+output "var1" {	
 	value = var.var1
 }
 variable "var2" {
@@ -20,7 +20,7 @@ variable "var2" {
   description = "The second variable"
 }
 
-output "aws_region" {	
+output "var2" {	
 	value = var.var2
 }
 variable "var3" {
@@ -28,6 +28,6 @@ variable "var3" {
   description = "The third variable"
 }
 
-output "aws_region" {	
+output "var3" {	
 	value = var.var3
 }
